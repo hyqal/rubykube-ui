@@ -1,6 +1,6 @@
 window.onload = function(){ 
 
-$('.picture')[0].style.backgroundImage = `url("http://peatio1.coinrank.net/img/${gon.market.ask_unit.toUpperCase()}.png")`
+$('.picture')[0].style.backgroundImage = `url("http://coine.io/img/${gon.market.ask_unit.toUpperCase()}.png")`
 
 setInterval(function(){
 let table = $(".order-book-ask tr");
